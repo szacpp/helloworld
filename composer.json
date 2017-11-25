@@ -1,0 +1,19 @@
+{
+    "name": "hello-world/hello-world",
+    "description": "for testing purpose",
+    "type": "library",
+    "license": "zubair ali",
+    "authors": [
+        {
+            "name": "zubair",
+            "email": "szacpp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
